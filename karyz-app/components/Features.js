@@ -35,7 +35,7 @@ export default function Features() {
       <div className="wrap">
         <div className="head rv">
           <h2>
-            Built for the way <span className="grad-text">teams really work.</span>
+            Everything your <span className="grad-text">distribution business needs.</span>
           </h2>
           <p>Four tools replace a dozen. Scroll to see how they fit together.</p>
         </div>

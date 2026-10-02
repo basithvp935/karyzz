@@ -36,21 +36,21 @@ export default function Hero() {
 
           {/* Description */}
           <p className="hero-desc">
-            The all-in-one platform to run your projects, customers and reporting. Work smarter, deliver faster, and make every team experience unmistakably yours.
+            Launch your own branded B2B eCommerce and Distribution Management platform. Manage products, inventory, orders, distributors and retailers — all from one powerful platform
           </p>
 
           {/* CTAs */}
           <div className="hero-cta-row">
             <a className="btn c hero-btn-primary" href="#start">
-              Start free trial
+              Book a Demo
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </a>
             <a className="btn g hero-btn-secondary" href="#features">
-              Explore features
+              Explore Features
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </a>
           </div>
@@ -59,18 +59,10 @@ export default function Hero() {
         {/* ── STOREFRONT MOCKUP ── */}
         <div className="hero-right-col">
           <div className="dash hero-store-card" id="dash" aria-hidden="true">
-            <div className="dash-topbar">
-              <div className="dh"><b></b><b></b><b></b></div>
-              <div className="dash-title">karyz.store.app — Live Storefront</div>
-              <div className="dash-actions">
-                <span className="dash-chip">● Live Store</span>
-                <span className="dash-chip dash-chip-ghost">Bestsellers</span>
-              </div>
-            </div>
             <div className="store-img-wrapper">
               <img
                 src="/store-preview.jpg"
-                alt="Karyz Online Storefront"
+                alt="ABC Distribution — Karyz Customer B2B Storefront"
                 className="store-full-img"
               />
             </div>

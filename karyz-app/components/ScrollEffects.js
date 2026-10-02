@@ -124,7 +124,7 @@ export default function ScrollEffects() {
     }
 
     // Word mask headings
-    document.querySelectorAll('.head h2,.sticky-h h2,.fin h2').forEach(function(h) {
+    document.querySelectorAll('.head h2,.sticky-h h2').forEach(function(h) {
       var k = 0;
       h.innerHTML = h.textContent.trim().split(/\s+/).map(function(w) {
         return '<span class="w" style="--k:' + (k++) + '"><span>' + w + '</span></span>';

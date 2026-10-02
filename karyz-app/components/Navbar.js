@@ -3,11 +3,12 @@ export default function Navbar() {
     <nav id="nav">
       <div className="in">
         <a href="#top" className="logo" aria-label="Karyz home">
-          <svg width="32" height="32" viewBox="0 0 40 40" fill="none" aria-hidden="true">
-            <path d="M10 6v28M10 22c8-2 12-8 14-16" stroke="#352A55" strokeWidth="5" strokeLinecap="round"/>
-            <path d="M14 30c6 6 16 4 20-4" stroke="#CB5C27" strokeWidth="5" strokeLinecap="round"/>
-          </svg>
-          Karyz
+          <img
+            src="/log.png"
+            alt="Karyz"
+            className="nav-logo-img"
+            style={{ height: '36px', width: 'auto', display: 'block', objectFit: 'contain' }}
+          />
         </a>
         <div className="links">
           <a href="#top">Home</a>
