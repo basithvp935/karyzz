@@ -34,10 +34,13 @@ export default function Features() {
     <section id="features" className="features-sec">
       <div className="wrap">
         <div className="head rv">
+          <span className="head-pill">KEY CAPABILITIES</span>
           <h2>
             Everything your <span className="grad-text">distribution business needs.</span>
           </h2>
-          <p>Four tools replace a dozen. Scroll to see how they fit together.</p>
+          <p>
+            Four interconnected modules designed to replace disconnected tools, automate your daily workflow, and power your complete B2B commerce network.
+          </p>
         </div>
         <div className="stack">
           {features.map((f, i) => (
