@@ -8,7 +8,7 @@ const steps = [
     desc: 'Sign up, name your store, and upload your logo. Your custom store URL is ready to share immediately.',
     tags: ['Free trial', 'No credit card needed'],
     slug: 'account',
-    image: '/features/dashboard.jpg',
+    image: '/features/b1.png',
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
@@ -21,7 +21,7 @@ const steps = [
     desc: 'Upload photos, set prices, and write descriptions, or import your full catalog in bulk via CSV. Each product automatically gets a dedicated SEO page.',
     tags: ['Bulk import', 'SEO-ready pages'],
     slug: 'products',
-    image: '/features/automations.jpg',
+    image: '/features/b2.png',
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
@@ -35,7 +35,7 @@ const steps = [
     desc: 'Connect Stripe, PayPal, or Razorpay with one-click authorization. Set local pickup, flat rate, or free delivery thresholds.',
     tags: ['Stripe', 'PayPal', 'Razorpay'],
     slug: 'payments',
-    image: '/features/reports.jpg',
+    image: '/features/b3.png',
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/>
@@ -48,7 +48,7 @@ const steps = [
     desc: 'Add your storefront link to your Instagram bio, TikTok, WhatsApp business catalog, and email marketing signatures.',
     tags: ['Social links', 'WhatsApp', 'Email signature'],
     slug: 'share',
-    image: '/features/security.jpg',
+    image: '/features/b4.png',
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>

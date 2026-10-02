@@ -3,30 +3,30 @@ export default function Band() {
     <div className="band" aria-hidden="true">
       <div className="band-track band-left">
         <div className="bt">
-          <span>Plan</span><span className="ol">Decide</span><em>Deliver</em>
-          <span>Align</span><span className="ol">Automate</span><em>Grow</em>
-          <span>Plan</span><span className="ol">Decide</span><em>Deliver</em>
-          <span>Align</span><span className="ol">Automate</span><em>Grow</em>
+          <span>Distributor list</span><span className="ol">Territory</span><em>Orders</em>
+          <span>Sales</span><span className="ol">Stock</span><em>Retailers</em><span>Status</span>
+          <span className="ol">Distributor list</span><em>Territory</em><span>Orders</span>
+          <span className="ol">Sales</span><em>Stock</em><span>Retailers</span><span className="ol">Status</span>
         </div>
         <div className="bt">
-          <span>Plan</span><span className="ol">Decide</span><em>Deliver</em>
-          <span>Align</span><span className="ol">Automate</span><em>Grow</em>
-          <span>Plan</span><span className="ol">Decide</span><em>Deliver</em>
-          <span>Align</span><span className="ol">Automate</span><em>Grow</em>
+          <span>Distributor list</span><span className="ol">Territory</span><em>Orders</em>
+          <span>Sales</span><span className="ol">Stock</span><em>Retailers</em><span>Status</span>
+          <span className="ol">Distributor list</span><em>Territory</em><span>Orders</span>
+          <span className="ol">Sales</span><em>Stock</em><span>Retailers</span><span className="ol">Status</span>
         </div>
       </div>
       <div className="band-track band-right">
         <div className="bt">
-          <em>Scale</em><span className="ol">Connect</span><span>Focus</span>
-          <em>Simplify</em><span className="ol">Execute</span><span>Thrive</span>
-          <em>Scale</em><span className="ol">Connect</span><span>Focus</span>
-          <em>Simplify</em><span className="ol">Execute</span><span>Thrive</span>
+          <em>Stock</em><span>Retailers</span><span className="ol">Status</span>
+          <em>Distributor list</em><span>Territory</span><span className="ol">Orders</span><em>Sales</em>
+          <span>Stock</span><em>Retailers</em><span className="ol">Status</span>
+          <em>Distributor list</em><span>Territory</span><span className="ol">Orders</span><em>Sales</em>
         </div>
         <div className="bt">
-          <em>Scale</em><span className="ol">Connect</span><span>Focus</span>
-          <em>Simplify</em><span className="ol">Execute</span><span>Thrive</span>
-          <em>Scale</em><span className="ol">Connect</span><span>Focus</span>
-          <em>Simplify</em><span className="ol">Execute</span><span>Thrive</span>
+          <em>Stock</em><span>Retailers</span><span className="ol">Status</span>
+          <em>Distributor list</em><span>Territory</span><span className="ol">Orders</span><em>Sales</em>
+          <span>Stock</span><em>Retailers</em><span className="ol">Status</span>
+          <em>Distributor list</em><span>Territory</span><span className="ol">Orders</span><em>Sales</em>
         </div>
       </div>
     </div>
