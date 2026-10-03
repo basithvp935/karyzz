@@ -1,4 +1,5 @@
 :root {
+  color-scheme: light;
   --purple: #352A55;
   --coral: #CB5C27;
   --bg: #F8F4F2;
@@ -18,16 +19,6 @@
   box-sizing: border-box;
   padding-top: env(safe-area-inset-top, 0px);
   padding-bottom: env(safe-area-inset-bottom, 0px);
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #1D1630; --bg2: #251C3C; --ink: #F3ECEF;
-    --mute: #B4A9CB; --card: #2B2145; --line: rgba(243,236,239,.16);
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #1D1630; --bg2: #251C3C; --ink: #F3ECEF;
-  --mute: #B4A9CB; --card: #2B2145; --line: rgba(243,236,239,.16);
 }
 *, *::before, *::after { box-sizing: inherit; }
 html { scroll-behavior: smooth; scroll-padding-top: calc(env(safe-area-inset-top,0px) + 90px); }
@@ -1151,23 +1142,35 @@ footer .wrap { display:flex; flex-wrap:wrap; gap:24px; justify-content:space-bet
   .manifesto-sec { padding: clamp(28px, 6vw, 48px) 0; }
   .mf { font-size: clamp(1.45rem, 5.2vw, 2.4rem); line-height: 1.3; max-width: 100%; }
 
-  /* Stacked Features */
-  .features-sec { padding-top: 10px; }
-  .head { margin-bottom: 24px; }
+  /* Stacked Features Mobile (Preserves Desktop Card Design & Sticky Deck Effect) */
+  .features-sec { padding-top: 10px; padding-bottom: 30px; }
+  .head { margin-bottom: 28px; }
   .stk { 
     grid-template-columns: 1fr !important; 
-    position: static !important; 
-    top: 0 !important; 
-    margin-bottom: 18px !important; 
-    padding: 22px 18px !important; 
-    border-radius: 22px !important;
-    gap: 18px !important;
-    transform: none !important;
+    position: sticky !important; 
+    top: calc(72px + var(--i) * 12px) !important; 
+    margin-bottom: 24px !important; 
+    padding: 22px 18px 24px !important; 
+    border-radius: 24px !important;
+    gap: 16px !important;
+    transform-origin: top center;
+    box-shadow: 0 16px 45px -14px rgba(53,42,85,0.22);
+    overflow: hidden;
   }
-  .stk-content h3 { font-size: clamp(1.4rem, 4.8vw, 1.85rem); }
-  .stk-content p { font-size: 0.92rem; }
-  .feat-vis-container { width: 100%; }
-  .feat-img-frame { border-radius: 14px; }
+  .stk:last-child { margin-bottom: 40px !important; }
+  .stk-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .stk-content small { font-size: 0.74rem; }
+  .stk-content h3 { font-size: clamp(1.35rem, 4.8vw, 1.8rem); margin: 4px 0 6px; line-height: 1.2; }
+  .stk-content p { font-size: 0.92rem; line-height: 1.55; }
+  .feat-vis-container { width: 100%; margin-top: 4px; }
+  .feat-img-frame { width: 100%; border-radius: 14px; box-shadow: 0 12px 30px -10px rgba(0,0,0,0.22); }
+  .feat-frame-bar { padding: 6px 10px; }
+  .feat-img-wrapper { width: 100%; height: auto; max-height: none; }
+  .feat-full-img { width: 100%; height: auto; max-height: none; object-fit: contain; }
 
   /* How It Works Mobile */
   .how-split-sec { padding: clamp(40px, 8vw, 70px) 0; }

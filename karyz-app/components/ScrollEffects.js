@@ -48,16 +48,16 @@ export default function ScrollEffects() {
         var q = Math.max(0, Math.min(1, (vh * .6 - t.top) / t.height));
         tl.style.setProperty('--p', (q * 100) + '%');
       }
-      // Sticky stack scale
-      if (innerWidth > 900) {
-        stk.forEach(function(c, i) {
-          var n = stk[i + 1];
-          if (!n) return;
-          var d = n.getBoundingClientRect().top - (96 + (i + 1) * 22);
-          var k = Math.max(0, Math.min(1, 1 - d / 400));
-          c.style.transform = 'scale(' + (1 - .05 * k) + ')';
-        });
-      }
+      // Sticky stack scale for Desktop & Mobile
+      var baseTop = innerWidth > 900 ? 96 : 72;
+      var stepTop = innerWidth > 900 ? 22 : 14;
+      stk.forEach(function(c, i) {
+        var n = stk[i + 1];
+        if (!n) return;
+        var d = n.getBoundingClientRect().top - (baseTop + (i + 1) * stepTop);
+        var k = Math.max(0, Math.min(1, 1 - d / 400));
+        c.style.transform = 'scale(' + (1 - .04 * k) + ')';
+      });
     }
 
     addEventListener('scroll', onScroll, { passive: true });

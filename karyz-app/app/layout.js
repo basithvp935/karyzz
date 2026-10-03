@@ -21,10 +21,16 @@ export const metadata = {
   description: 'Karyz brings projects, customers and reporting into one place, so your team spends less time switching tools and more time finishing work.',
 };
 
+export const viewport = {
+  themeColor: '#F8F4F2',
+  colorScheme: 'light',
+};
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${instrumentSerif.variable} ${manrope.variable}`}>
+    <html lang="en" className={`${instrumentSerif.variable} ${manrope.variable}`} style={{ colorScheme: 'light' }}>
       <body>{children}</body>
     </html>
   );
 }
+
